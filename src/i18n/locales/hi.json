@@ -1,0 +1,12 @@
+{
+  "nav": {
+    "home": "होम",
+    "library": "पुस्तकालय",
+    "categories": "श्रेणियाँ",
+    "about": "परिचय",
+    "login": "लॉगिन",
+    "logout": "लॉगआउट",
+    "admin": "व्यवस्थापक डैशबोर्ड"
+  }
+  // ... rest of the translations
+}

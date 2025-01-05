@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "home": "Home",
+    "library": "Library",
+    "categories": "Categories",
+    "about": "About",
+    "login": "Login",
+    "logout": "Logout",
+    "admin": "Admin Dashboard"
+  },
+  "landing": {
+    "title": "Discover Ancient Jain Wisdom",
+    "subtitle": "Explore thousands of ancient Jain texts in multiple languages with our modern digital library",
+    "exploreButton": "Explore Library"
+  },
+  "library": {
+    "searchPlaceholder": "Search books by title or author...",
+    "allCategories": "All Categories",
+    "allLanguages": "All Languages",
+    "by": "by",
+    "readNow": "Read Now",
+    "scripture": "Scripture",
+    "philosophy": "Philosophy",
+    "sanskrit": "Sanskrit",
+    "prakrit": "Prakrit"
+  },
+  "categories": {
+    "title": "Browse by Category",
+    "books": "books",
+    "explore": "Explore Category",
+    "scripture": "Sacred Scriptures",
+    "scriptureDesc": "Original Jain canonical texts and sacred literature",
+    "philosophy": "Philosophy",
+    "philosophyDesc": "Philosophical treatises and metaphysical works",
+    "history": "Historical Texts",
+    "historyDesc": "Chronicles and historical accounts",
+    "commentary": "Commentaries",
+    "commentaryDesc": "Scholarly interpretations and explanations"
+  },
+  "about": {
+    "title": "About Jain Digital Library",
+    "description": "Preserving and sharing ancient Jain wisdom through modern technology",
+    "mission": "Our Mission",
+    "missionDesc": "To make Jain literature accessible to everyone while preserving its authenticity",
+    "digitalLibrary": "Digital Collection",
+    "digitalLibraryDesc": "Thousands of carefully digitized texts",
+    "accessibility": "Global Access",
+    "accessibilityDesc": "Available anywhere, anytime",
+    "community": "Community",
+    "communityDesc": "Growing community of scholars and readers",
+    "preservation": "Preservation",
+    "preservationDesc": "Protecting ancient wisdom for future generations",
+    "team": "Our Team",
+    "contact": "Contact Us",
+    "contactDesc": "Have questions or suggestions? Reach out to us"
+  }
+}

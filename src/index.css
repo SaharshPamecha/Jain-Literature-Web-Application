@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #8B4513;
+  --accent-color: #DAA520;
+}
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary-600 text-white px-6 py-3 rounded-lg font-medium 
+           hover:bg-primary-700 transition-colors duration-200 
+           transform hover:scale-105 shadow-md;
+  }
+
+  .card {
+    @apply bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 
+           hover:shadow-xl transition-shadow duration-300;
+  }
+
+  .book-card {
+    @apply card hover:scale-105 transition-transform duration-300;
+  }
+
+  .nav-link {
+    @apply text-gray-700 dark:text-gray-300 hover:text-primary-600 
+           dark:hover:text-primary-400 transition-colors duration-200;
+  }
+}
+
+.page-turn {
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease-in-out;
+}
+
+.book-shadow {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.prose-custom {
+  @apply prose-lg dark:prose-invert 
+         prose-headings:text-primary-800 dark:prose-headings:text-primary-200
+         prose-p:text-gray-700 dark:prose-p:text-gray-300
+         prose-a:text-primary-600 dark:prose-a:text-primary-400;
+}

@@ -1,0 +1,12 @@
+{
+  "nav": {
+    "home": "હોમ",
+    "library": "લાઇબ્રેરી",
+    "categories": "શ્રેણીઓ",
+    "about": "વિશે",
+    "login": "લૉગિન",
+    "logout": "લૉગઆઉટ",
+    "admin": "એડમિન ડેશબોર્ડ"
+  }
+  // ... rest of the translations
+}
